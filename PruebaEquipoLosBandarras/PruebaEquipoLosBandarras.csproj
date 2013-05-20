@@ -50,8 +50,53 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GuillermoGonzalez.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuillermoGonzalez.Designer.cs">
+      <DependentUpon>GuillermoGonzalez.cs</DependentUpon>
+    </Compile>
+    <Compile Include="javier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="javier.Designer.cs">
+      <DependentUpon>javier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JavierHernandez.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JavierHernandez.Designer.cs">
+      <DependentUpon>JavierHernandez.cs</DependentUpon>
+    </Compile>
+    <Compile Include="matias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="matias.Designer.cs">
+      <DependentUpon>matias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MatiasSusena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MatiasSusena.Designer.cs">
+      <DependentUpon>MatiasSusena.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="willy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="willy.Designer.cs">
+      <DependentUpon>willy.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="javier.resx">
+      <DependentUpon>javier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="matias.resx">
+      <DependentUpon>matias.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -61,6 +106,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="willy.resx">
+      <DependentUpon>willy.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
